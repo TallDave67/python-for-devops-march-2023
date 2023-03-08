@@ -9,3 +9,6 @@ Based on Pragmatic AI course taught by Noah Gift : AWS Microservices with Python
     * Source this virtual environment in your bash shell `vim ~/.bashrc`
 2. Create empty files `touch requirements.txt` `touch Dockerfile` `touch Makefile` `mkdir mylib` `touch mylib/__init__.py` `touch mylib/logic.py` `touch main.py`
 3. Populate `Makefile` `pip freeze | less`
+4. Setup Continuous Integration, i.e. check code for issues like lint errors
+
+![lint-failure](https://user-images.githubusercontent.com/4317489/223865787-2ef78ffa-e176-436a-9b8e-8081b892204b.png)
