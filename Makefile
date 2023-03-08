@@ -7,6 +7,7 @@ format:
 	black *.py mylib/*.py
 lint:
 	#flake8 pr #pylint
+	pylint *.py mylib/*.py
 test:
 	#test
 deploy:

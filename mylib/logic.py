@@ -1,3 +1,4 @@
+""" Our logic script """
 import wikipedia
 
 
