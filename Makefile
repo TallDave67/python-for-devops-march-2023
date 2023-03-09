@@ -10,7 +10,7 @@ lint:
 	pylint *.py mylib/*.py
 test:
 	#test
-	python -m pytest -vv --cov=mylib *.py
+	python -m pytest -vv --cov=mylib tests/*.py
 build:
 	#build container
 deploy:
